@@ -1,4 +1,5 @@
 fn main() {
-    let text = include!("text.in");
-    println!("{}", text);
+    let text_in = include!("text.in");
+    let text_rs = include!("text.rs");
+    println!("{} {}", text_in, text_rs);
 }
